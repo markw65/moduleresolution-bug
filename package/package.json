@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.cjs",
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "require": "./build/index.cjs",
+      "import": "./build/index.cjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}

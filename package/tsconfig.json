@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "build",
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+  },
+
+  "include": ["src/**/*.ts"],
+}

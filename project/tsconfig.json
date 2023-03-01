@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "outDir": "build",
+      "target": "esnext",
+      "lib": ["esnext"],
+      "moduleResolution": "node16",
+      "allowSyntheticDefaultImports": true,
+      "declaration": true,
+    },
+
+    "include": ["src/**/*.ts"],
+  }
